@@ -13,7 +13,9 @@ import type { Points as PointsType } from "three";
 export const StarBackground = (props: PointsInstancesProps) => {
   const ref = useRef<PointsType | null>(null);
   const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5000), { radius: 1.2 }),
+    // allocate a multiple of 3 (x,y,z) for 5000 points to avoid incomplete
+    // coordinates which can produce NaN when three.js computes bounds
+    random.inSphere(new Float32Array(5000 * 3), { radius: 1.2 }),
   );
 
   useFrame((_state, delta) => {

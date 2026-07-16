@@ -4,7 +4,6 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-import { CONTACT_LINK } from "@/constants";
 import {
   slideInFromLeft,
   slideInFromRight,
@@ -53,9 +52,7 @@ export const HeroContent = () => {
         </motion.p>
 
         <motion.a
-          href={CONTACT_LINK}
-          target="_blank"
-          rel="noreferrer noopener"
+          href="#contact"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
