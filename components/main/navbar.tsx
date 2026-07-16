@@ -50,6 +50,13 @@ export const Navbar = () => {
             >
               Source Code
             </Link>
+            {/* Top Contact Button (mailto) */}
+            <a
+              href="mailto:afnanazfar15@gmail.com?subject=Portfolio%20Inquiry"
+              className="ml-3 hidden md:inline-flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 px-4 py-2 font-semibold text-white transition hover:opacity-90"
+            >
+              Contact
+            </a>
           </div>
         </div>
 
@@ -100,6 +107,13 @@ export const Navbar = () => {
             >
               Source Code
             </Link>
+            <a
+              href="mailto:afnanazfar15@gmail.com?subject=Portfolio%20Inquiry"
+              className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Contact
+            </a>
           </div>
 
           {/* Social Icons */}
