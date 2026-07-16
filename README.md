@@ -99,13 +99,9 @@ To deploy your portfolio site to Vercel:
 4. Keep the default settings (Vercel automatically detects Next.js configuration).
 5. Click **Deploy**!
 
-## 👥 Contributors
-
-* **Muhammad Afnan Azfar** ([@AFNAN7788](https://github.com/AFNAN7788)) — Developer / Customizer
-* **Sanidhya Kumar Verma** ([@sanidhyy](https://github.com/sanidhyy)) — Original Template Creator
-
 ---
 
 <div align="center">
+  <p>Created by <a href="https://github.com/AFNAN7788">Muhammad Afnan Azfar</a></p>
   <p>⭐ Show your support by giving a star to the repo! ⭐</p>
 </div>

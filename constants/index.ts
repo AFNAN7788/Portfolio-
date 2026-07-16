@@ -71,7 +71,7 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/afnan.azfar.7?igsh=MTEwZGxmbGN5NzQ4cA%3D%3D&utm_source=qr",
   },
 ] as const;
 
@@ -240,7 +240,7 @@ export const FOOTER_DATA = [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        link: "https://www.instagram.com/afnan.azfar.7?igsh=MTEwZGxmbGN5NzQ4cA%3D%3D&utm_source=qr",
       },
       {
         name: "GitHub",
