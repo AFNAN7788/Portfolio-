@@ -289,8 +289,16 @@ export const NAV_LINKS = [
     title: "Projects",
     link: "#projects",
   },
+  {
+    title: "Contact",
+    link: "#contact",
+  },
 ] as const;
+
+export const CONTACT_LINK =
+  "mailto:afnanazfar15@gmail.com?subject=Portfolio%20Inquiry";
 
 export const LINKS = {
   sourceCode: "https://github.com/AFNAN7788",
+  contact: CONTACT_LINK,
 };
