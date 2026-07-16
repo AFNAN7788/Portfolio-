@@ -23,14 +23,7 @@ export default function Home() {
             If you want to collaborate, discuss an opportunity, or just say hello,
             I&apos;d love to hear from you.
           </p>
-          <a
-            href={CONTACT_LINK}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="mt-8 inline-flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 px-6 py-3 font-semibold text-white transition hover:opacity-90"
-          >
-            Contact Me
-          </a>
+          {/* Bottom contact button removed per request; navigation now uses the top navbar contact button */}
         </section>
       </div>
     </main>
