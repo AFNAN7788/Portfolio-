@@ -50,13 +50,6 @@ export const Navbar = () => {
             >
               Source Code
             </Link>
-            {/* Top Contact Button */}
-            <Link
-              href="#contact"
-              className="ml-3 hidden md:inline-flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 px-4 py-2 font-semibold text-white transition hover:opacity-90"
-            >
-              Contact
-            </Link>
           </div>
         </div>
 
