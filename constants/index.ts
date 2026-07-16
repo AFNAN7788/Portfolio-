@@ -267,11 +267,6 @@ export const FOOTER_DATA = [
         icon: null,
         link: "https://www.linkedin.com/in/muhammad-afnan-986244421",
       },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:afnanazfar15@gmail.com",
-      },
     ],
   },
 ] as const;

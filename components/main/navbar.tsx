@@ -29,33 +29,25 @@ export const Navbar = () => {
         </Link>
 
         {/* Web Navbar */}
-        <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border-[rgba(112,66,248,0.38)] bg-[rgba(3,0,20,0.37)] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
+        <div className="hidden md:flex w-full max-w-[700px] h-full md:mr-20">
+          <div className="flex w-full items-center gap-8 border-[rgba(112,66,248,0.38)] bg-[rgba(3,0,20,0.37)] px-[20px] py-[10px] rounded-full text-gray-200">
             {NAV_LINKS.map((link) => (
               <Link
                 key={link.title}
                 href={link.link}
-                className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
+                className="cursor-pointer rounded-md px-2 py-1 hover:text-[rgb(112,66,248)] transition"
               >
                 {link.title}
               </Link>
             ))}
 
-            {/* Source Code */}
             <Link
               href={LINKS.sourceCode}
               target="_blank"
               rel="noreferrer noopener"
-              className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
+              className="cursor-pointer rounded-md px-2 py-1 hover:text-[rgb(112,66,248)] transition"
             >
               Source Code
-            </Link>
-            {/* Top Contact Button */}
-            <Link
-              href="/contact"
-              className="ml-3 hidden md:inline-flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 px-4 py-2 font-semibold text-white transition hover:opacity-90"
-            >
-              Contact
             </Link>
           </div>
         </div>
@@ -106,13 +98,6 @@ export const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Source Code
-            </Link>
-            <Link
-              href="/contact"
-              className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Contact
             </Link>
           </div>
 
